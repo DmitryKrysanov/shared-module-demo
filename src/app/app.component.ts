@@ -15,7 +15,7 @@ const imports = [ButtonComponent, CapitalizePipe, CardComponent];
       <p>{{ 'angular' | capitalize }}</p>
     </app-card>
   `,
-  // imports,
-  imports: [SharedModule],
+  imports,
+  // imports: [SharedModule],
 })
 export class AppComponent {}
